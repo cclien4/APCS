@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <cstdlib>
+
+int main()
+{
+	int a;
+	scanf("%d",&a);
+	while(a>-1){
+	printf("%d ",a);
+	a--;
+	}
+	system("pause");
+	return 0;
+}

@@ -1,0 +1,16 @@
+https://akr.tw/tag/7?fbclid=IwAR2yXatvSbIk6CbCNSbaOeUXAinRD41fv_0fXu1TUJfJNZdvK0n_tMOJBD8
+
+
+
+APCS 2021年1月9日
+實作題已經都放上 zerojudge
+第一題
+https://zerojudge.tw/ShowProblem?problemid=f605
+第二題
+https://zerojudge.tw/ShowProblem?problemid=f606
+第三題
+https://zerojudge.tw/ShowProblem?problemid=f607
+第四題
+https://zerojudge.tw/ShowProblem?problemid=f608
+部份筆試題目
+https://hackmd.io/@cthbst/APCS11001

@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <cstdlib>
+
+int main()
+{
+	int x,y,m;
+	m=0;
+	scanf("%d""%d",&x,&y);
+	if (y==2 || y==5 || y==8){
+	m=200;
+	}
+	if(x%2==1) {
+	m+=100;
+	}
+	if (x==y){
+	m+=50;
+	}
+	printf("%d",m);
+	system("pause");
+	return 0;
+}

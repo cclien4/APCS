@@ -1,0 +1,33 @@
+#include <iostream>
+#include <set>
+
+using namespace std;
+
+int main()
+{
+    multiset<int> mmset;
+    multiset<int>::iterator it;
+    int N,b,i;
+    int cmp1=0,cmp2=0,T;
+    cin>>N;
+    for(i=0;i<N;i++)
+    {
+        cin>>b;
+        mmset.insert(b);
+    }
+    
+    for(it=mmset.begin();it!=mmset.end();it++)
+    {
+        cmp1=mmset.count(*it);
+        if(cmp2<cmp1)
+        {
+           cmp2=cmp1;
+           T=*it;
+        }
+        //cout<<*it;
+    }
+    
+    cout<<T<<" "<<cmp2<<endl;
+    //system("pause");
+    return 0;
+}

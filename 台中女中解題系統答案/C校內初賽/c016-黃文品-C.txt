@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int a,b,i=0;
+	scanf("%d""%d",&a,&b);
+	while(a<b){
+	if (a%2!=0 & a%3!=0 & a%5!=0) i++;
+	a++;
+	}
+	printf("%d",i);
+	system("pause");
+	return 0;
+}

@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int a,b,c,d;
+	c=0,d=0;
+	scanf("%d""%d",&a,&b);
+	while(d<b){
+		while(c<a){
+		printf("#");
+		c++;
+		}
+	printf("\n");
+	c=0;
+	d++;
+	}
+	system("pause");
+	return 0;
+}

@@ -1,0 +1,14 @@
+實作題
+[更新] 題目都上傳到 zerojudge 了 
+https://zerojudge.tw/ShowProblem?problemid=h081
+https://zerojudge.tw/ShowProblem?problemid=h082
+https://zerojudge.tw/ShowProblem?problemid=h083
+https://zerojudge.tw/ShowProblem?problemid=h084
+
+部分觀念題:
+https://hackmd.io/@algoseacow/APCS11101-writing
+
+
+影片解答：
+C++  第三題
+https://www.youtube.com/watch?v=VNSmO1y1W-w

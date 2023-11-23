@@ -1,0 +1,15 @@
+https://hackmd.io/@yungyao/HyFRzzWfF?fbclid=IwAR2ZNoZypKZlOOwH2LFxe3a100eTZtpADF2gfS3jcSgnR4GQKTx93OrINho
+
+
+APCS 2021年9月5日
+實作題已經都放上 zerojudge
+第一題
+https://zerojudge.tw/ShowProblem?problemid=f605
+第二題
+https://zerojudge.tw/ShowProblem?problemid=f606
+第三題
+https://zerojudge.tw/ShowProblem?problemid=f607
+第四題
+https://zerojudge.tw/ShowProblem?problemid=f608
+部份筆試題目
+https://hackmd.io/@cthbst/APCS11001

@@ -1,0 +1,30 @@
+#include <iostream>
+#include <set>
+#include <string.h>
+using namespace std;
+
+int main()
+{
+    int i;
+    string a,b;
+    cin>>a;
+    
+  //  cout<<a.assign(a,0,2)<<endl;
+    
+  //  b=b.append(a,0,2);
+ //   cout<<b<<endl;
+   // cout<<a.size();
+  // cout<<a.find("ab",1); 
+ // cout<<a.assign(a,2,1);  注意assign會改變a字串的內容 
+
+    b=a;  //因此先把a字串內容儲存 
+    for(i=a.length();i>=1;i--)
+    {
+        cout<<a.assign(a,i-1,1);
+        a=b;
+    }
+    
+    
+  //  system("pause");
+    return 0;
+}

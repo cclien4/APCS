@@ -1,0 +1,19 @@
+#include <iostream>
+#include <set>
+#include <string.h>
+using namespace std;
+
+int main()
+{
+    string a,b;
+    cin>>a;
+    
+    cout<<"Hello, "<<a<<"!"<<endl;
+    
+    
+   // cout<<a.size();
+    
+    
+    //system("pause");
+    return 0;
+}

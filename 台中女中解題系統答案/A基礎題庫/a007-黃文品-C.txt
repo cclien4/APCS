@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    int h,m,t;
+    scanf("%d",&m);
+	h=m/60;
+	t=m-h*60;
+    printf("%d ""%d",h,t);
+    return 0;
+}

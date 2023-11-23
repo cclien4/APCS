@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <cstdlib>
+
+int main()
+{
+	int n,i;
+	n=0,i=0;
+	scanf("%d",&n);
+	while(i!=n){
+	printf("I love you.\n");
+	i=i+1;
+	}
+	system("pause");
+	return 0;
+}

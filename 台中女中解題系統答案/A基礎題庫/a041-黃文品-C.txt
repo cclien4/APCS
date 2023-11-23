@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int a,b,c;
+	scanf("%d",&a);
+	b=a;
+	c=0;
+	while(b>4){
+		b=b-5;
+		b++;
+		c++;
+	}
+	a=a+c;
+	printf("%d",a);
+	system("pause");
+	return 0;
+}

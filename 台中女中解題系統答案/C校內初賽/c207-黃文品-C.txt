@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int a,b,c;
+	a,b,c=0;
+	scanf("%d""%d",&a,&b);
+	c=a*60+b;
+	if		(c<450 || c>1019) printf("XXX");
+	else if (c>479 & c<490) printf("NO");
+	else if (c>539 & c<550) printf("NO");
+	else if (c>599 & c<610) printf("NO");
+	else if (c>659 & c<670) printf("NO");
+	else if (c>719 & c<750) printf("NO");
+	else if (c>779 & c<790) printf("NO");
+	else if (c>839 & c<850) printf("NO");
+	else if (c>899 & c<910) printf("NO");
+	else if (c>959 & c<970) printf("NO");
+	else printf("YES");
+	system("pause");
+	return 0;
+}

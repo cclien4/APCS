@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <cstdlib>
+
+int main()
+{
+	int bg,sg,b,p,p10,p1,p2;
+	scanf("%d",&sg);
+	bg=sg+3;
+	b=2*sg-5;
+	p10=b/10;
+	p1=bg/10;
+	p2=bg-10*p1;
+	p=10*p10+p2;
+	printf("%d",p);
+	system("pause");
+	return 0;
+}

@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int a,b;
+	scanf("%d",&a);
+	if (a>-1 & a<20) printf("60");
+	else if (a>19 & a<50) printf("80");
+	else if (a>49 & a<100) printf("90");
+	else printf("100");
+	system("pause");
+	return 0;
+}

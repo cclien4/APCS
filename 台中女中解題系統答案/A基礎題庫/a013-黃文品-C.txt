@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <cstdlib>
+
+int main()
+{
+	int s;
+	scanf("%d",&s);
+	if (s>74 & s<91){
+		printf("YES");
+	}
+	else{
+		printf("NO");
+	}
+	system("pause");
+	return 0;
+}

@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <cstdlib>
+
+int main()
+{
+	int p,a,b,c,d,m;
+	scanf("%d",&p);
+	a=p/11;
+	b=a*1000;
+	c=p-a*11;
+	d=c*100;
+	m=b+d;
+	printf("%d",m);
+	system("pause");
+	return 0;
+}

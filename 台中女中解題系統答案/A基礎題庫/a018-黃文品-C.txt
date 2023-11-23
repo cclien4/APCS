@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <cstdlib>
+
+int main()
+{
+	int h,m,H,t;
+	scanf("%d""%d",&h,&m);
+	H=h*60;
+	t=H+m;
+	if (t>859 & t<1001 ){
+		printf("YES");
+	}
+	else{
+		printf("NO");
+	}
+	system("pause");
+	return 0;
+}

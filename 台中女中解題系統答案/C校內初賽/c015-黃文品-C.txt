@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int a,b,c,d;
+	scanf("%d""%d""%d""%d",&a,&b,&c,&d);
+	if (a==b & b==c & c==d) printf("1000");
+	else if (b==c && b==d || a==c && c==d || a==b && b==d || a==b && b==c) printf("100");
+	else if ((a==b || a==c || a==d) && (c==d || b==d || b==c)) printf("50");
+	else if (a==b || a==c || a==d || b==c || b==d || c==d) printf("10");
+	else printf("0");
+	system("pause");
+	return 0;
+}

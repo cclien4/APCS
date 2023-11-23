@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+int a,b,t;
+int main()
+{
+	scanf("%d""%d",&a,&b);
+	if (a>b){
+		t=a-b;
+		printf("A %d",t);
+	}
+	else if(b>a){
+		t=b-a;
+		printf("B %d",t);
+	}
+	else{
+		printf("0");
+	}
+	system("pause");
+	return 0;
+}

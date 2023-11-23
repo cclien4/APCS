@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+{
+  int s,o ; //int整數 
+  // s 分數 o原始分數 
+  scanf("%d",&o); 
+   s = o * 4 / 5 + 30;
+   while(s>100){
+   s--; 
+                } 
+   printf("%d",s); 
+  system("PAUSE");	
+  return 0;
+}
